@@ -3,7 +3,7 @@ from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QTabWidget
 
 # Import poszczególnych modułów:
 from subnet_calculator.calculator import SubnetCalculator
-#from subnet_calculator.checker import SubnetChecker
+from subnet_calculator.checker import SubnetChecker
 #from subnet_calculator.visualization import VisualizationWidget
 #from subnet_calculator.plan_generator import PlanGeneratorWidget
 #from subnet_calculator.history import HistoryWidget
@@ -16,7 +16,7 @@ class MainWindow(QWidget):
 
         # Ustawiamy początkowy rozmiar okna
         self.setGeometry(200, 200, 1200, 850)
-        # Jeśli chcesz wymusić, by nie dało się zmniejszyć poniżej pewnego rozmiaru:
+        # Jeśli chcesz wymusić, by nie dało się zmniejszyć poniżej pewnego rozmiaruls :
         # self.setMinimumSize(1200, 850)
 
         # Główny layout
