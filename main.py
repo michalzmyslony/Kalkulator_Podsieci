@@ -6,7 +6,7 @@ from subnet_calculator.calculator import SubnetCalculator
 from subnet_calculator.checker import SubnetChecker
 from subnet_calculator.visualization import VisualizationWidget
 from subnet_calculator.plan_generator import PlanGeneratorWidget
-#from subnet_calculator.history import HistoryWidget
+from subnet_calculator.history import HistoryWidget
 #from subnet_calculator.help import HelpWidget
 
 class MainWindow(QWidget):
