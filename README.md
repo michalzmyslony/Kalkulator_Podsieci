@@ -154,12 +154,7 @@ Wczytywanie automatycznych placeholderów dla IP w zależności od klasy sieci (
 
 Sygnały Qt (Signal) pomiędzy zakładkami: np. automatyczne aktualizowanie Wizualizacji i Historii po obliczeniu.
 
-5. Moduły/usunięte funkcje
-Statystyki (Wykresy) – wcześniej istniał moduł do rysowania wykresów Bar / Pie / Line, ale został usunięty na życzenie, ponieważ funkcjonalność nie spełniała oczekiwań.
-
-Obecnie aplikacja nie generuje żadnych wykresów ani nie posiada funkcji statystycznych.
-
-6. Podsumowanie
+5. Podsumowanie
 Projekt realizuje kompleksową obsługę kalkulacji i analizy podsieci IP.
 Zapewnia:
 
